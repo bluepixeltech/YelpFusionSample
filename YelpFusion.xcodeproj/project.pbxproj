@@ -13,6 +13,10 @@
 		422DD79423F6F65200010BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422DD79223F6F65200010BCF /* Main.storyboard */; };
 		422DD79623F6F65400010BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422DD79523F6F65400010BCF /* Assets.xcassets */; };
 		422DD79923F6F65400010BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422DD79723F6F65400010BCF /* LaunchScreen.storyboard */; };
+		422DD7A123F6FBB400010BCF /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DD7A023F6FBB400010BCF /* Venue.swift */; };
+		422DD7A323F702EE00010BCF /* FetchBusinessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DD7A223F702EE00010BCF /* FetchBusinessData.swift */; };
+		422DD7A723F7639700010BCF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422DD7A623F7639700010BCF /* CustomCell.xib */; };
+		429F0C80240341B6001C89F0 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429F0C7F240341B6001C89F0 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		422DD79523F6F65400010BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422DD79823F6F65400010BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		422DD79A23F6F65400010BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422DD7A023F6FBB400010BCF /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		422DD7A223F702EE00010BCF /* FetchBusinessData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchBusinessData.swift; sourceTree = "<group>"; };
+		422DD7A623F7639700010BCF /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		429F0C7F240341B6001C89F0 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				422DD79523F6F65400010BCF /* Assets.xcassets */,
 				422DD79723F6F65400010BCF /* LaunchScreen.storyboard */,
 				422DD79A23F6F65400010BCF /* Info.plist */,
+				422DD7A023F6FBB400010BCF /* Venue.swift */,
+				422DD7A223F702EE00010BCF /* FetchBusinessData.swift */,
+				422DD7A623F7639700010BCF /* CustomCell.xib */,
+				429F0C7F240341B6001C89F0 /* CustomCell.swift */,
 			);
 			path = YelpFusion;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				422DD79923F6F65400010BCF /* LaunchScreen.storyboard in Resources */,
 				422DD79623F6F65400010BCF /* Assets.xcassets in Resources */,
+				422DD7A723F7639700010BCF /* CustomCell.xib in Resources */,
 				422DD79423F6F65200010BCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				422DD79123F6F65200010BCF /* ViewController.swift in Sources */,
+				422DD7A123F6FBB400010BCF /* Venue.swift in Sources */,
+				422DD7A323F702EE00010BCF /* FetchBusinessData.swift in Sources */,
 				422DD78D23F6F65200010BCF /* AppDelegate.swift in Sources */,
+				429F0C80240341B6001C89F0 /* CustomCell.swift in Sources */,
 				422DD78F23F6F65200010BCF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
